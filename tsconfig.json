@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "types": [],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "module": "commonjs",
     "target": "es2020",
     "outDir": "dist",
@@ -7,6 +10,7 @@
     "jsx": "react",
     "sourceMap": true,
     "rootDir": "src",
+    "removeComments": true,
     "strict": false /* enable all strict type-checking options */
     /* Additional Checks */
     // "noImplicitReturns": true, /* Report error when not all code paths in function return a value. */
@@ -21,6 +25,7 @@
     "src/test",
     "out",
     "dist",
-    "sandbox"
+    "sandbox",
+    "archive"
   ]
 }
