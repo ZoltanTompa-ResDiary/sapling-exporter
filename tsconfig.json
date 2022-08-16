@@ -16,9 +16,11 @@
   "exclude": [
     "node_modules",
     ".vscode-test",
-    "src/webviews",
-    "src/test/test_apps",
-    "test",
+    "src/future-stuff",
+    "src/parser/test",
+    "src/test",
+    "out",
+    "dist",
     "sandbox"
   ]
 }
