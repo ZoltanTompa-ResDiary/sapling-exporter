@@ -12,11 +12,12 @@
     "graph"
   ],
   "scripts": {
-    "build": "npm-run-all -p build:*",
+    "build": "tsc",
     "build:watch": "tsc --watch",
-    "test-watch": "tsc -watch -p ./",
-    "pretest": "npm run test-compile && npm run lint",
-    "lint": "eslint src --ext ts"
+    "test": "",
+    "test:watch": "",
+    "lint": "eslint src --ext ts",
+    "lint:fix": "eslint src --ext ts --fix"
   },
   "devDependencies": {
     "@babel/parser": "^7.15.7",
@@ -41,6 +42,8 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.15",
     "@tippy.js/react": "^3.1.1",
+    "jest": "^28.1.3",
+    "jest-dom": "^4.0.0",
     "oo-ascii-tree": "^1.64.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

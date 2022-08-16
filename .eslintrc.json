@@ -14,5 +14,11 @@
     "no-throw-literal": "warn",
     "semi": "off"
   },
-  "ignorePatterns": ["dist", "**/*.d.ts", "src/test/test_apps/*"]
+  "ignorePatterns": [
+    "dist",
+    "out",
+    "sandbox",
+    "**/*.d.ts",
+    "src/test/test_apps/*"
+  ]
 }
