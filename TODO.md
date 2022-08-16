@@ -1,0 +1,5 @@
+- add esBuild(https://esbuild.github.io/) (webpack alternative) to build .html pages for the graphs
+- add cy plugins (https://js.cytoscape.org/#demos);
+  - [wineandcheesemap](https://github.com/cytoscape/wineandcheesemap)
+  - [dagre](https://github.com/cytoscape/cytoscape.js-dagre)
+- convert to npm package
